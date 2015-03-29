@@ -1,0 +1,25 @@
+{
+  "name": "karma-unexpected",
+  "version": "1.0.0",
+  "description": "Karma adapter for the unexpected testing framework",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rab1/karma-unexpected.git"
+  },
+  "keywords": [
+    "karma-unexpected"
+  ],
+  "author": {
+    "name": "rab",
+    "email": "rabish@one.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rab1/karma-unexpected/issues"
+  },
+  "homepage": "https://github.com/rab1/karma-unexpected",
+  "dependencies": {
+    "unexpected": "^6.4.0"
+  }
+}
