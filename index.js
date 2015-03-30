@@ -11,8 +11,6 @@ function pattern(file) {
 
 function framework(files) {
     var unexpectedPath = path.resolve(require.resolve('unexpected'), '../../');
-
-    console.log( unexpectedPath + '/unexpected.js');
     files.unshift(pattern(unexpectedPath + '/unexpected.js'));
 }
 
@@ -21,7 +19,3 @@ framework.$inject = ['config.files'];
 module.exports = {
     'framework:unexpected': ['factory', framework]
 };
-
-
-
-
